@@ -11,5 +11,5 @@ git clone https://github.com/billyhawkes/dotfiles.git
 ### Setup
 
 ```
-cd .dotfiles && stow .
+cd dotfiles && stow .
 ```
