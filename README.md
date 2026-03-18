@@ -6,6 +6,7 @@ Personal dotfiles for macOS.
 
 - **nvim** - Neovim configuration
 - **opencode** - OpenCode configuration
+- **.agents** - Agent skills for OpenCode
 
 ## Prerequisites
 
@@ -22,7 +23,9 @@ stow .
 ## Structure
 
 ```
+.agents/
+└── skills/       # Agent skills for OpenCode
 .config/
 ├── nvim/         # Neovim config
-└── opencode/     # OpenCode config
+└── opencode/     #OpenCode config
 ```
