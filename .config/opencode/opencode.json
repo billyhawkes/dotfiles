@@ -1,0 +1,21 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "autoupdate": true,
+  "mcp": {
+    "tanstack": {
+      "type": "local",
+      "command": ["bunx", "@tanstack/cli", "mcp"],
+      "enabled": true
+    },
+    "shadcn": {
+      "type": "local",
+      "command": ["bunx", "shadcn@latest", "mcp"],
+      "enabled": true
+    },
+    "better-auth": {
+      "type": "remote",
+      "url": "https://mcp.inkeep.com/better-auth/mcp",
+      "enabled": true
+    }
+  }
+}
