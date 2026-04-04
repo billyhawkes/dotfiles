@@ -398,11 +398,11 @@ require('lazy').setup({
 				--
 				defaults = {
 					file_ignore_patterns = {
-						'node_modules',
-						'build',
-						'dist',
-						'bun.lock',
-						'.git',
+						'node_modules/',
+						'/build/',
+						'/dist/',
+						'bun%.lock',
+						'%.git/',
 					},
 				},
 				pickers = {
@@ -775,7 +775,7 @@ require('lazy').setup({
 				-- <c-k>: Toggle signature help
 				--
 				-- See :h blink-cmp-config-keymap for defining your own keymap
-				preset = 'default',
+				preset = 'enter',
 
 				-- For more advanced Luasnip keymaps (e.g. selecting choice nodes, expansion) see:
 				--    https://github.com/L3MON4D3/LuaSnip?tab=readme-ov-file#keymaps
@@ -906,6 +906,9 @@ require('lazy').setup({
 				-- Custom
 				'json',
 				'typescript',
+				'javascript',
+				'css',
+				'yaml',
 			}
 			require('nvim-treesitter').install(parsers)
 			vim.api.nvim_create_autocmd('FileType', {
@@ -947,8 +950,8 @@ require('lazy').setup({
 	--
 	-- require 'kickstart.plugins.debug',
 	-- require 'kickstart.plugins.indent_line',
-	-- require 'kickstart.plugins.lint',
-	-- require 'kickstart.plugins.autopairs',
+	require 'kickstart.plugins.lint',
+	require 'kickstart.plugins.autopairs',
 	-- require 'kickstart.plugins.neo-tree',
 	-- require 'kickstart.plugins.gitsigns', -- adds gitsigns recommended keymaps
 
@@ -986,3 +989,11 @@ require('lazy').setup({
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+
+vim.filetype.add {
+	pattern = {
+		['.*/*.nix.d.ts'] = 'nixts',
+	},
+}
+vim.treesitter.language.register('typescript', { 'nixts' })
+vim.lsp.enable 'typenix'

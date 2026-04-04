@@ -1,7 +1,6 @@
 ---
 description: Create a git commit with a conventional message
 subtask: true
-model: opencode/minimax-m2.5
 ---
 
 Run `git add .` then create a commit.

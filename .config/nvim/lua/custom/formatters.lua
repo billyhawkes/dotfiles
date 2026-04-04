@@ -1,6 +1,8 @@
 return {
-	typescript = { 'prettierd' },
-	typescriptreact = { 'prettierd' },
-	javascript = { 'prettierd' },
-	json = { 'prettierd' },
+	typescript = { 'oxfmt' },
+	typescriptreact = { 'oxfmt' },
+	javascript = { 'oxfmt' },
+	json = { 'oxfmt' },
+	markdown = { 'oxfmt' },
+	yaml = { 'oxfmt' },
 }
