@@ -399,6 +399,7 @@ require('lazy').setup({
 				defaults = {
 					file_ignore_patterns = {
 						'node_modules/',
+						'.agents/',
 						'/build/',
 						'/dist/',
 						'bun%.lock',
@@ -909,6 +910,8 @@ require('lazy').setup({
 				'javascript',
 				'css',
 				'yaml',
+				'python',
+				'astro',
 			}
 			require('nvim-treesitter').install(parsers)
 			vim.api.nvim_create_autocmd('FileType', {
