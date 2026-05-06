@@ -5,5 +5,5 @@ return {
 	json = { 'oxfmt' },
 	markdown = { 'oxfmt' },
 	yaml = { 'oxfmt' },
-	nix = { 'nixfmt' },
+	nix = { 'alejandra' },
 }

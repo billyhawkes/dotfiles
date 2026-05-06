@@ -6,4 +6,6 @@ return {
 	pylsp = {}, -- Python
 	cssls = {}, -- CSS
 	yamlls = {}, -- YAML
+	tailwindcss = {}, -- Tailwind
+	nil_ls = {}, -- Nix
 }

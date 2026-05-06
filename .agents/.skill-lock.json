@@ -26,6 +26,80 @@
       "skillFolderHash": "b1f418f4e7cbee5d18c209a48e3475132b49e7b1",
       "installedAt": "2026-04-10T20:47:35.739Z",
       "updatedAt": "2026-04-10T20:47:35.739Z"
+    },
+    "drizzle-orm": {
+      "source": "promptlylabs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/promptlylabs/skills.git",
+      "skillPath": "plugins/promptly-skills/skills/drizzle-orm/SKILL.md",
+      "skillFolderHash": "ae620104f15240a9877b8168ab506dcbb0ce7e8f",
+      "installedAt": "2026-04-27T00:14:44.014Z",
+      "updatedAt": "2026-04-27T00:14:44.014Z"
+    },
+    "shadcn": {
+      "source": "shadcn/ui",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/shadcn/ui.git",
+      "skillPath": "skills/shadcn/SKILL.md",
+      "skillFolderHash": "39a241ae2b522ccb686d4d7064ca61e68dbf3794",
+      "installedAt": "2026-04-27T16:49:37.314Z",
+      "updatedAt": "2026-04-27T16:49:37.314Z"
+    },
+    "better-auth-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/best-practices/SKILL.md",
+      "skillFolderHash": "58f87c7fe7c2c487779728c1e73ea43717612d37",
+      "pluginName": "auth-skills",
+      "installedAt": "2026-04-28T17:54:30.275Z",
+      "updatedAt": "2026-04-28T17:54:30.275Z"
+    },
+    "create-auth-skill": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/create-auth/SKILL.md",
+      "skillFolderHash": "5192f50c149fc94b6bfb4cf288dfd84f37517e00",
+      "pluginName": "auth-skills",
+      "installedAt": "2026-04-28T17:54:30.277Z",
+      "updatedAt": "2026-04-28T17:54:30.277Z"
+    },
+    "better-auth-security-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "security/SKILL.md",
+      "skillFolderHash": "845a8a6373a316deb708dcf09a6d1e019ceccb50",
+      "installedAt": "2026-04-28T17:54:30.277Z",
+      "updatedAt": "2026-04-28T17:54:30.277Z"
+    },
+    "email-and-password-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/emailAndPassword/SKILL.md",
+      "skillFolderHash": "9da895cd339e3eda0ba6d1b8d2b54e24799b1992",
+      "installedAt": "2026-04-28T17:54:30.278Z",
+      "updatedAt": "2026-04-28T17:54:30.278Z"
+    },
+    "organization-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/organization/SKILL.md",
+      "skillFolderHash": "461989110d1cd43c4809bea01c9a61b9fd432056",
+      "installedAt": "2026-04-28T17:54:30.278Z",
+      "updatedAt": "2026-04-28T17:54:30.278Z"
+    },
+    "two-factor-authentication-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/better-auth/skills.git",
+      "skillPath": "better-auth/twoFactor/SKILL.md",
+      "skillFolderHash": "c3e340469e63705527a6191c6b7ac94ff7448ded",
+      "installedAt": "2026-04-28T17:54:30.279Z",
+      "updatedAt": "2026-04-28T17:54:30.279Z"
     }
   },
   "dismissed": {
@@ -38,6 +112,7 @@
     "codex",
     "cursor",
     "deepagents",
+    "dexto",
     "firebender",
     "gemini-cli",
     "github-copilot",

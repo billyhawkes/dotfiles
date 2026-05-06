@@ -12,5 +12,32 @@
       "url": "https://mcp.inkeep.com/better-auth/mcp",
       "enabled": true
     }
+  },
+  "provider": {
+    "ollama": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Ollama (local)",
+      "options": {
+        "baseURL": "http://desktop:11434/v1"
+      },
+      "models": {
+        "qwen3.5": {
+          "name": "Qwen3.5 9B",
+          "reasoning": false,
+          "limit": {
+            "context": 32768,
+            "output": 8192
+          }
+        },
+        "qwen3.6:35b-a3b": {
+          "name": "Qwen3.6 35B",
+          "reasoning": false,
+          "limit": {
+            "context": 32768,
+            "output": 8192
+          }
+        }
+      }
+    }
   }
 }
